@@ -82,7 +82,7 @@ The label is gradually made transparent and scaled to one fifteenth of its origi
 
 
 
-"Features and Animations in the Project: An Overview"
+# "Features and Animations in the Project: An Overview"
 
 
 
