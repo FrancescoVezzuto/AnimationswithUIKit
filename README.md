@@ -14,8 +14,13 @@
 
 
 
+
 This project is written in **Swift** and is used to create animations. 
 It defines a view with a gray background, a blue button, and a spoiler button. 
+
+
+
+
 
 
 
@@ -29,8 +34,16 @@ Please note that the animation start/stop button is the same button, with two di
 
 
 
+
+
+
+
 -The view also has a tap gesture recognizer that adds a red view with scale and fade animations at the position of the tap. 
 These animations are implemented using the **UIView's animate() method**.
+
+
+
+
 
 
 
@@ -41,11 +54,21 @@ When the spoiler button is pressed, an animation starts that fades out the view 
 
 
 
+
+
+
+
 -So, the explosion animation is triggered by the label "Something's Coming Soon!"
 Animating small squares exploding in different directions creates an explosion effect of colored particles around a specified label.
 The particles are created using **CAEmitterCell**, which defines the visual appearance of the particles, in this case by specifying the gray and red colors.
 Then, an animation is played for the label transition at the end of the explosion.
 The label is gradually made transparent and scaled to one fifteenth of its original size, while the particles are gradually eliminated by setting their birth rate to 0.
+
+
+
+
+
+
 
 
 
